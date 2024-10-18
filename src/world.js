@@ -1,4 +1,4 @@
-import GUI from 'lil-gui';
+import GUI from 'https://cdn.jsdelivr.net/npm/lil-gui@0.19/+esm';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
