@@ -247,7 +247,7 @@ window.addEventListener('click', () => {
                         x: -0.0001,
                         onComplete: () => {
                             // Navigate to another page when animation is complete
-                            window.location.href = 'http://localhost:5173/world.html'; // Change this to your desired URL
+                            window.location.href = 'https://our-world-17-10-24.netlify.app/world.html'; // Change this to your desired URL
                         }
                     });
                 }
