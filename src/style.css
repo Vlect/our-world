@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#cardView {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+}
+
+#cardView .card {
+    font-family: Arial, sans-serif;
+}
+
+#cardView h3 {
+    margin-top: 0;
+}
+
+#cardView p {
+    margin-bottom: 0;
+}
