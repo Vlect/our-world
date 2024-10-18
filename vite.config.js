@@ -24,7 +24,9 @@ export default {
             viteStaticCopy({
                 targets: [
                     { src: '../src/world.html', dest: '' },
-                ]
+                    { src: '../src/world.js', dest: '' },
+                    { src: '../src/style.css', dest: '' },
+                ],
             })
         ]
 }
