@@ -15,8 +15,11 @@ export default {
         emptyOutDir: true,
         sourcemap: true,
         rollupOptions: {
-            external: [], // Ensure no module is excluded by default
-        }
+            input: {
+                main: 'src/index.html',
+                world: 'src/world.html',
+            },
+        },
     },
     plugins: [
         restart({ restart: ['../static/**'] }),
